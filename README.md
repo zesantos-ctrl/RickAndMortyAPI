@@ -14,14 +14,14 @@ Exemplo de execução:
 Digite o nome do personagem de RICK AND MORTY:
 rick
 
+===============================================
 Personagem: Rick Sanchez
 Status: Alive
 Espécie: Human
 Gênero: Male
-Trecho do código principal:
 
-java
-Copiar código
+================================================
+Trecho do código principal:
 public void exibeMenu() {
     System.out.println("Digite o nome do personagem de RICK AND MORTY: ");
     var nome = leitura.nextLine();
@@ -34,7 +34,9 @@ public void exibeMenu() {
         System.out.println("Gênero: " + p.gender());
     });
 }
-Como rodar: Tenha Java 17+ e Maven instalados, clone o projeto com git clone https://github.com/seuusuario/rick-and-morty-api-java.git e execute mvn spring-boot:run.
+Como rodar:
+Tenha Java 17+ e Maven instalados.
+clone o projeto com git clone https://github.com/seuusuario/rick-and-morty-api-java.git e execute mvn spring-boot:run.
 
 Desenvolvido  por Ze.
 ```
