@@ -26,7 +26,6 @@ public class Principal {
             System.out.println("Nenhum personagem encontrado!");
             return;
         }
-
         // Exibe os personagens encontrados
         System.out.println("\n==== Resultado personagens encontrados ====");
         resultado.results().forEach(p -> {
@@ -37,5 +36,4 @@ public class Principal {
             System.out.println("Gênero: " + p.gender());
         });
     }
-
 }

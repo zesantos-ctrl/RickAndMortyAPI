@@ -10,20 +10,15 @@ public class ConsumoApi {
         try {
             // Cria o cliente HTTP
             HttpClient client = HttpClient.newHttpClient();
-
             // Cria a requisição GET para a URL da API
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(url))
                     .GET()
                     .build();
-
             // Envia a requisição e recebe a resposta como String
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-
-            // Retorna o corpo da resposta
             return response.body();
         } catch (Exception e) {
-            // Caso dê erro, lança uma exceção com mensagem
             throw new RuntimeException("Erro ao obter dados da API: " + e.getMessage());
         }
 
