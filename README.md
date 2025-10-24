@@ -36,6 +36,6 @@ public void exibeMenu() {
 }
 Como rodar: Tenha Java 17+ e Maven instalados, clone o projeto com git clone https://github.com/seuusuario/rick-and-morty-api-java.git e execute mvn spring-boot:run.
 
-Desenvolvido com 💚 por Ze.
+Desenvolvido  por Ze.
 ```
-<p align="center"> <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" width="100" alt="Summer Smith"> <img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" width="100" alt="Beth Smith"> <img src="https://rickandmortyapi.com/api/character/avatar/5.jpeg" width="100" alt="Jerry Smith"> </p> ```
+<p align="center"> <img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg" width="100" alt="Summer Smith"> <img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg" width="100" alt="Beth Smith"> <img src="https://rickandmortyapi.com/api/character/avatar/5.jpeg" width="100" alt="Jerry Smith"> </p> 
